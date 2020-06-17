@@ -1,0 +1,31 @@
+@font-face {
+    font-family: reverb;
+    src: url(Reverb-lgDd.ttf);
+    font-weight: bold;
+}
+
+body {
+    margin: 35px;
+}
+
+.container {
+    display: grid;
+}
+
+#header {
+    text-align: center;
+}    
+
+#banner {
+    display: flex;
+    justify-content: center;
+    font-family: reverb;
+    font-size: 40px;
+    padding: 40px;
+    color: lightcoral
+}
+
+#sub-banner {
+    font-size: 15px;
+    font-family: monospace;
+}
