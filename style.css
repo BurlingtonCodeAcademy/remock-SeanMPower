@@ -182,7 +182,7 @@ h2:hover {
 
 #main-cont {
     display: flex;
-    grid-template-columns: 5fr 3fr;
+    grid-template-columns: 3fr 5fr;
     width: 80%;
     height: auto;
     margin-top: 30px;
@@ -200,4 +200,18 @@ h2:hover {
     width: 37.5%;
     justify-content: space-evenly;
     padding: 20px;
+}
+
+#blog-post {
+    margin: 5% 20% 0 20%;
+}
+#blog-post>h3{
+    text-align: center;
+}
+#blog-post>img {
+    width: 100%;
+}
+
+#learn-main {
+    justify-content: center;
 }
