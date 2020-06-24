@@ -148,6 +148,18 @@ h2:hover {
 
 #footer-midright {
     width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer-text {
+    width: 100%;
+}
+#footer-text>p {
+    margin: 0px
+}
+#footer-link {
+    width: 50%;
 }
 
 #midrightright {
