@@ -182,7 +182,7 @@ h2:hover {
 
 #main-cont {
     display: flex;
-    grid-template-columns: 3fr 5fr;
+    
     width: 80%;
     height: auto;
     margin-top: 30px;
@@ -214,4 +214,5 @@ h2:hover {
 
 #learn-main {
     justify-content: center;
+    grid-template-columns: 3fr 5fr;
 }
