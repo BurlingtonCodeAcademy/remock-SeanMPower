@@ -31,6 +31,10 @@ body {
     font-size: 15px;
     font-family: monospace;
 }
+hr {
+    margin-left: 21%;
+    margin-right: 21%;
+}
 
 #features {
     display: flex;
@@ -177,15 +181,16 @@ h2:hover {
 
 #large-input {
     width: 351px;
-    height: 100px;
+    height: 180px;
 }
 
 #main-cont {
     display: flex;
-    
+    grid-template-columns: 3fr 5fr;
     width: 80%;
     height: auto;
     margin-top: 30px;
+    margin: auto;
     justify-content: center;
     align-self: center;
     justify-self: center;
@@ -215,4 +220,7 @@ h2:hover {
 #learn-main {
     justify-content: center;
     grid-template-columns: 3fr 5fr;
+}
+#large-input {
+    resize: none;
 }
