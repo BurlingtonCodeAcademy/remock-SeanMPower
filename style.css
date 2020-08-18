@@ -14,11 +14,11 @@ body {
 }
 
 
-#header {
+.header {
     text-align: center;
 }
 
-#banner {
+.banner {
     display: flex;
     justify-content: center;
     font-family: reverb;
@@ -27,20 +27,18 @@ body {
     color: green;
 }
 
-#sub-banner {
+.sub-banner {
     font-size: 15px;
     font-family: monospace;
 }
-hr {
-    margin-left: 21%;
-    margin-right: 21%;
-}
+
 
 #features {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 50px;
+    border-top: double;
 }
 
 #features-top {
@@ -49,7 +47,7 @@ hr {
     padding: 20px;
 }
 
-#thumb {
+.thumb {
 justify-content: space-between;
 margin: 20px;
 text-align: center;
@@ -124,11 +122,11 @@ h2:hover {
     background-color: green;
 }
 
-#ufothumb {
+.ufothumb {
     float: left;
 }
 
-#footer {
+.footer {
     background-color: rgb(240, 240, 240);
     height: 400px;
     margin-left: -35px;
@@ -136,52 +134,65 @@ h2:hover {
     display: flex;
     flex-wrap: wrap;
 }
-#footer-top {
+.footer-top {
     width: 100%;
     text-align: center;
     padding-top: 30px;
 }
 
-#midleftleft{
+.midleftleft{
     width: 20%
 }
 
-#footer-midleft {
+.footer-midleft {
     width: 30%;
 }
 
-#footer-midright {
+.footer-midright {
     width: 30%;
     display: flex;
     flex-wrap: wrap;
 }
 
-#footer-text {
+.footer-text {
     width: 100%;
 }
-#footer-text>p {
+.footer-text>p {
     margin: 0px
 }
-#footer-link {
+.footer-link {
     width: 50%;
 }
 
-#midrightright {
+.midrightright {
     width: 20%;
 }
 
-#footer-bottom {
+.footer-bottom {
     width: 100%;
 }
 
-#small-input {
+.small-input {
     display: inline-block;
     margin-bottom: 5px;
 }
 
-#large-input {
+input[type=text] {
+    background-color: rgb(246, 246, 246)
+}
+
+input[type=text]:hover {
+    background-color: white;
+}
+
+.large-input {
     width: 351px;
     height: 180px;
+    resize: none;
+    background-color: rgb(246, 246, 246);
+}
+.large-input:hover {
+    background-color: white;
 }
 
 #main-cont {
@@ -199,16 +210,19 @@ h2:hover {
 #flex-col1 {
     width: 62.5%;
     padding: 20px;
+    border-top: double;
 }
 
 #flex-col2 {
     width: 37.5%;
     justify-content: space-evenly;
     padding: 20px;
+    border-top: double;
 }
 
 #blog-post {
-    margin: 5% 20% 0 20%;
+    margin: 0% 20% 0 20%;
+    border-top: double;
 }
 #blog-post>h3{
     text-align: center;
@@ -221,6 +235,4 @@ h2:hover {
     justify-content: center;
     grid-template-columns: 3fr 5fr;
 }
-#large-input {
-    resize: none;
-}
+
